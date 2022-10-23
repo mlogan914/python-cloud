@@ -8,7 +8,7 @@ We need 50 pages of jobs.
 ## 2. Specification Detail
 1. Create an EC2 Instance on AWS.
 2. Build a python project on EC2 via VSCode. (Will require that VSCode remotely SSH connect to EC2)
-3. Use the python script to read the API (use **requests library)**
+3. Use the python script to read the API (use **requests library)
 4. Get the data we want:
 - “company name”
 - “locations”,
