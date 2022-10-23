@@ -28,7 +28,7 @@ We need 50 pages of jobs.
 
 8. Save the data into S3 bucket.
 
-There are two ways script to save the csv data to S3 using python:
+There are two ways to save the csv data to S3 using python:
 1. Use boto3 and AWS credentials.
 2. Attach an IAM Role to EC2, so that your EC2 instance doesn't need credentials and boto3 to upload csv files. All you need to do is save the csv to your local EC2 and use aws cli (aws s3 cp ….)to upload the file to S3. 
 
