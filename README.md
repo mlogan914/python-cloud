@@ -36,7 +36,7 @@ The way to set IAM Role in EC2 as below:
 ![EC2_ADD_ROLE](https://user-images.githubusercontent.com/74939090/197381977-fdab42b8-aa10-49af-ada9-dda90e333460.jpg)
 ![ROLE](https://user-images.githubusercontent.com/74939090/197381979-b5404080-915e-4dcf-bb67-d51b1090ea2b.jpg)
 
-## 3. Required files & Technical Instruction
+## 3. Required Files & Technical Instruction
 - A shell script to set your virtual environment
 - .gitignore file
 - A python run script
