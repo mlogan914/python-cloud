@@ -1,1 +1,1 @@
-# Mini Project -- Python Cloud Project Using Amazon EC2 and S3
+# Mini Project -- Python Cloud Project Using AWS EC2 and S3
