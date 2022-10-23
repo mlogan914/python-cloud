@@ -15,7 +15,6 @@ We need 50 pages of jobs.
 - “job name”,
 - “job type”,
 - “publication date”
-
 5. Convert the json data into a dataframe (use pandas library)
 6. Manipulate data: create a table include:
 - company_name
@@ -24,7 +23,6 @@ We need 50 pages of jobs.
 - Job_name
 - Job_type
 - Date (cut string of “publication date” only keep date part)
-
 7. This is the result sample:
 ![result_sample](https://user-images.githubusercontent.com/74939090/197381891-253223db-513b-48de-8f82-80a098660eff.jpg)
 
