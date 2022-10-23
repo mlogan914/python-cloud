@@ -15,7 +15,7 @@ We need 50 pages of jobs.
 - “job name”,
 - “job type”,
 - “publication date”
-5. Convert the json data into a dataframe (use pandas library)
+5. Convert the json data into a dataframe (use *pandas library*)
 6. Manipulate data: create a table include:
 - company_name
 - country (cut the string of “locations”, keep the country part)
