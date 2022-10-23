@@ -30,10 +30,20 @@ We need 50 pages of jobs.
 8.Save the data into S3 bucket.
 There are two ways using python script to save the csv data to S3:
 1. Use boto3 and AWS credentials.
-2. Attach an IAM Role to EC2, so that your EC2 doesn't need credentials and boto3 to upload csv files. All you need to do is save the csv to your local EC2 and use aws cli (aws s3 cp ….)to upload the file to S3. The way to set IAM Role in EC2 as below:
+2. Attach an IAM Role to EC2, so that your EC2 doesn't need credentials and boto3 to upload csv files. All you need to do is save the csv to your local EC2 and use aws cli (aws s3 cp ….)to upload the file to S3. 
+
+The way to set IAM Role in EC2 as below:
 ![EC2_ADD_ROLE](https://user-images.githubusercontent.com/74939090/197381977-fdab42b8-aa10-49af-ada9-dda90e333460.jpg)
 ![ROLE](https://user-images.githubusercontent.com/74939090/197381979-b5404080-915e-4dcf-bb67-d51b1090ea2b.jpg)
 
+## 3. Required files & Technical Instruction
+- A shell script to set your virtual environment
+- .gitignore file
+- A python run script
+- A toml file if you need to config parameters
+- A separate file to save your secrets
+- Better to initiate your project environment with a shell script.
+- Better to use a shell script to control the python script.
 
 ## 4. Project Diagram:
-
+![Python_project_1_lab_1](https://user-images.githubusercontent.com/74939090/197382124-8ffb0023-5df7-465e-a53a-21532245c133.png)
