@@ -1,1 +1,1 @@
-# Mini Project -- Python Cloud Project (Job data)
+# Mini Project -- Python Cloud Project Using Amazon EC2 and S3
