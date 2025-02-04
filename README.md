@@ -1,4 +1,4 @@
-# Mini Project - Python Cloud Project Using AWS EC2 and S3
+# Mini Project: Python Cloud Project Using AWS EC2 and S3
 
 ## 1. Business Scenario
 Download job data from an API located [HERE](https://www.themuse.com/developers/api/v2)
